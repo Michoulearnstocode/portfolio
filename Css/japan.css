@@ -1,0 +1,33 @@
+body{
+	margin:0;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #008080;
+}
+
+a {
+  float: left;
+}
+
+nav a{
+ display: block;
+ text-decoration: none;
+ font-family: Verdana, sans-serif;
+ font-size: 20px;
+ text-align: right;
+ padding: 14px 20px;;
+ color: #FFFFFF;
+ transition-duration: 0.4s;
+ cursor: pointer;
+}
+
+.active, nav a:hover {
+  background-color: #fff;
+  opacity: 0.8;
+  color: #008080;
+}
